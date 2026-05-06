@@ -1,0 +1,15 @@
+{
+  "task": "binary",
+  "bert_model_name": "bert-base-uncased",
+  "max_len": 512,
+  "dropout_rate": 0.2,
+  "threshold": 0.5,
+  "benign_label": "benign",
+  "best_epoch": 9,
+  "best_val_f1": 1.0,
+  "test_accuracy": 0.9965397923875432,
+  "test_precision": 0.9959677419354839,
+  "test_recall": 1.0,
+  "test_f1": 0.997979797979798,
+  "test_auc": 0.9999518025833815
+}

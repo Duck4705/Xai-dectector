@@ -1,0 +1,10 @@
+{
+    "graphs": {
+        "XaiDectector": "./main_graph.py:graph"
+    },
+    "env": "./.env",
+    "python_version": "3.13",
+    "dependencies": [
+        "."
+    ]
+}

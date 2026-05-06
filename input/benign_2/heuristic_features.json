@@ -1,0 +1,16 @@
+{
+  "file": "file_malware_dataset/benign3/3d1ac5f16b486805bfea6e9152cc60251b7e8f4a8580187afef978347e523f46.exe",
+  "ATT&CK Technique": [
+    "T1057"
+  ],
+  "MBC Behavior": [
+    "C0018"
+  ],
+  "Capability": [
+    "terminate process",
+    "find process by PID",
+    "contains PDB path",
+    "(internal) .NET file limitation",
+    "compiled to the .NET platform"
+  ]
+}

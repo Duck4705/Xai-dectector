@@ -1,0 +1,17 @@
+langgraph 
+langsmith 
+langchain-community 
+langchain
+langchain-openai 
+langgraph-cli[inmem] 
+langchain-ollama
+python-dotenv
+langchain-core
+langchain-text-splitters
+torch 
+torchvision 
+torchaudio
+torch-geometric
+opencv-python
+capstone
+transformers

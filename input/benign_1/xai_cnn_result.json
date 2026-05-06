@@ -1,0 +1,72 @@
+{
+  "confidence_scores": {
+    "benign": 0.848377,
+    "malware": 0.151623
+  },
+  "top_k_opcodes": [
+    {
+      "hex_offset": "0x2b54",
+      "heat_score": 1.0,
+      "instructions": [
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al"
+      ]
+    },
+    {
+      "hex_offset": "0x2c53",
+      "heat_score": 0.981983,
+      "instructions": [
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al"
+      ]
+    },
+    {
+      "hex_offset": "0x2a54",
+      "heat_score": 0.959665,
+      "instructions": [
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al",
+        "add byte ptr [eax], al"
+      ]
+    }
+  ]
+}

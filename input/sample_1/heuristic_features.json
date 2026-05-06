@@ -1,0 +1,27 @@
+{
+  "file": "00a701908aeb69d1ee67ba8176353398818a245b396f6a0442c71a7bfd3a1658.exe",
+  "ATT&CK Technique": [],
+  "MBC Behavior": [],
+  "Capability": [
+    "Executes dropped EXE",
+    "Adds Run key to start application",
+    "Enumerates processes with tasklist",
+    "Suspicious use of SetThreadContext",
+    "Launches sc.exe",
+    "System Location Discovery: System Language Discovery",
+    "Suspicious behavior: EnumeratesProcesses",
+    "Suspicious use of AdjustPrivilegeToken",
+    "Suspicious use of FindShellTrayWindow",
+    "Suspicious use of SendNotifyMessage",
+    "Suspicious use of WriteProcessMemory"
+  ],
+  "Triage": {
+    "malware_family": null,
+    "score": "7",
+    "link": "https://tria.ge/reports/251025-th8ycsspe1/",
+    "tags": [
+      "discovery",
+      "persistence"
+    ]
+  }
+}

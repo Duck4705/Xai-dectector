@@ -1,0 +1,33 @@
+{
+  "file": "file_malware_dataset/benign3/3ce6f5e9aee5a3f921d1a21144ae5b7b557dbfc7999f282adcc2fc522fc787bb.exe",
+  "ATT&CK Technique": [
+    "T1027.005",
+    "T1129"
+  ],
+  "MBC Behavior": [
+    "C0016",
+    "B0003.003",
+    "C0008",
+    "C0007",
+    "B0032.020",
+    "B0032.017",
+    "C0052",
+    "C0018",
+    "B0046.001"
+  ],
+  "Capability": [
+    "create or open file",
+    "delay execution",
+    "change memory protection",
+    "allocate or change RWX memory",
+    "contain obfuscated stackstrings",
+    "parse PE header",
+    "contain loop",
+    "write file on Windows",
+    "terminate process",
+    "execute shellcode via indirect call",
+    "get thread local storage value",
+    "enumerate PE sections",
+    "contain a thread local storage (.tls) section"
+  ]
+}
