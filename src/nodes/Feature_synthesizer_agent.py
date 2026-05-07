@@ -95,7 +95,8 @@ def Feature_synthesizer_agent(state: dict):
 
     # 5. Save output to JSON
     file_name = state.get("file_name", "unknown")
-    output_dir = os.path.join("d:\\NCKH\\Xai-detector\\output", str(file_name))
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    output_dir = os.path.join(base_dir, "output", str(file_name))
     os.makedirs(output_dir, exist_ok=True)
     
     output_file = os.path.join(output_dir, "Feature_synthesizer_result.json")
