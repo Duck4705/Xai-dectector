@@ -17,9 +17,12 @@ def save_json_list(file_path, data):
         json.dump(data, f, indent=4, ensure_ascii=False)
 
 def run_all_inputs_via_api():
-    input_dir = r"d:\NCKH\Xai-detector\input"
-    processed_file = r"d:\NCKH\Xai-detector\processed_samples.json"
-    error_file = r"d:\NCKH\Xai-detector\error_samples.json"
+    # Sử dụng đường dẫn tương đối dựa trên vị trí của file script
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    input_dir = os.path.join(base_dir, "input")
+    processed_file = os.path.join(base_dir, "processed_samples.json")
+    error_file = os.path.join(base_dir, "error_samples.json")
     
     if not os.path.exists(input_dir):
         print(f"Thư mục input không tồn tại: {input_dir}")
