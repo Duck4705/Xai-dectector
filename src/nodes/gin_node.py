@@ -264,7 +264,7 @@ def GinNode(state: dict):
     # 5. XAI — GNNExplainer trích xuất subgraphs quan trọng
     subgraphs = explain_and_extract_subgraphs(
         model, data, idx_to_name, idx_to_opcodes,
-        num_subgraphs=1, max_parents=5, max_children=5
+        num_subgraphs=3, max_parents=5, max_children=5
     )
 
     # Chuyển subgraphs list thành dict cho Xai_cfg

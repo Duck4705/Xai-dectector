@@ -2,14 +2,14 @@
   "task": "binary",
   "bert_model_name": "bert-base-uncased",
   "max_len": 512,
-  "dropout_rate": 0.2,
+  "dropout_rate": 0.3,
   "threshold": 0.5,
   "benign_label": "benign",
-  "best_epoch": 9,
-  "best_val_f1": 1.0,
-  "test_accuracy": 0.9965397923875432,
-  "test_precision": 0.9959677419354839,
-  "test_recall": 1.0,
-  "test_f1": 0.997979797979798,
-  "test_auc": 0.9999518025833815
+  "best_epoch": 10,
+  "best_val_f1": 0.9979716024340771,
+  "test_accuracy": 0.9956395348837209,
+  "test_precision": 0.9979716024340771,
+  "test_recall": 0.9959514170040485,
+  "test_f1": 0.9969604863221885,
+  "test_auc": 0.9981530948704035
 }

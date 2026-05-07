@@ -1,0 +1,18 @@
+{
+  "task": "binary_detection",
+  "model_type": "MalwareCNN_MultiScaleGAP",
+  "num_classes": 2,
+  "class_names": [
+    "benign",
+    "malware"
+  ],
+  "width": 256,
+  "max_h": 512,
+  "dropout": 0.4,
+  "best_epoch": 29,
+  "best_val_f1": 0.9785054049819835,
+  "test_accuracy": 0.9781976744186046,
+  "test_f1": 0.973447433895174,
+  "macro_auc": 0.9979965774865396,
+  "use_amp": true
+}

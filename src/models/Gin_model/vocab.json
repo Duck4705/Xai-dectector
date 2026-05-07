@@ -26,10 +26,10 @@
     "movups": 23,
     "jb": 24,
     "jae": 25,
-    "neg": 26,
-    "jbe": 27,
-    "sar": 28,
-    "ja": 29,
+    "jbe": 26,
+    "neg": 27,
+    "ja": 28,
+    "sar": 29,
     "jle": 30,
     "ldarg.0": 31,
     "imul": 32,
@@ -42,17 +42,17 @@
     "adc": 39,
     "callvirt": 40,
     "sbb": 41,
-    "jge": 42,
-    "movsxd": 43,
-    "lock": 44,
-    "int3": 45,
-    "xchg": 46,
-    "ldfld": 47,
-    "cmovne": 48,
-    "xorps": 49,
+    "movsxd": 42,
+    "jge": 43,
+    "int3": 44,
+    "lock": 45,
+    "ldfld": 46,
+    "xchg": 47,
+    "xorps": 48,
+    "cmovne": 49,
     "movaps": 50,
-    "sete": 51,
-    "cmove": 52,
+    "cmove": 51,
+    "sete": 52,
     "bswap": 53,
     "movabs": 54,
     "setne": 55,
@@ -61,8 +61,8 @@
     "leave": 58,
     "movq": 59,
     "stloc.s": 60,
-    "cmpsb": 61,
-    "jns": 62,
+    "jns": 61,
+    "cmpsb": 62,
     "br.s": 63,
     "ldarg.1": 64,
     "ldstr": 65,
@@ -73,21 +73,21 @@
     "cdq": 70,
     "mulsd": 71,
     "ldloc.s": 72,
-    "setg": 73,
-    "movdqa": 74,
-    "setl": 75,
-    "addsd": 76,
-    "ldloc.0": 77,
-    "ldc.i4.0": 78,
-    "vmovdqu": 79,
-    "movdqu": 80,
+    "movdqa": 73,
+    "setg": 74,
+    "ldloc.0": 75,
+    "movdqu": 76,
+    "addsd": 77,
+    "setl": 78,
+    "ldc.i4.0": 79,
+    "vmovdqu": 80,
     "mul": 81,
-    "movd": 82,
-    "ill": 83,
-    "ldc.i4.s": 84,
-    "stfld": 85,
-    "movlpd": 86,
-    "ldarg.2": 87,
+    "ill": 82,
+    "movd": 83,
+    "stfld": 84,
+    "ldc.i4.s": 85,
+    "ldarg.2": 86,
+    "movlpd": 87,
     "movss": 88,
     "break": 89,
     "ldc.i4": 90,
@@ -98,8 +98,8 @@
     "jp": 95,
     "ldloc.1": 96,
     "ldc.i4.8": 97,
-    "stosd": 98,
-    "bt": 99
+    "bt": 98,
+    "stosd": 99
   },
   "idx_to_opcode": {
     "0": "mov",
@@ -128,10 +128,10 @@
     "23": "movups",
     "24": "jb",
     "25": "jae",
-    "26": "neg",
-    "27": "jbe",
-    "28": "sar",
-    "29": "ja",
+    "26": "jbe",
+    "27": "neg",
+    "28": "ja",
+    "29": "sar",
     "30": "jle",
     "31": "ldarg.0",
     "32": "imul",
@@ -144,17 +144,17 @@
     "39": "adc",
     "40": "callvirt",
     "41": "sbb",
-    "42": "jge",
-    "43": "movsxd",
-    "44": "lock",
-    "45": "int3",
-    "46": "xchg",
-    "47": "ldfld",
-    "48": "cmovne",
-    "49": "xorps",
+    "42": "movsxd",
+    "43": "jge",
+    "44": "int3",
+    "45": "lock",
+    "46": "ldfld",
+    "47": "xchg",
+    "48": "xorps",
+    "49": "cmovne",
     "50": "movaps",
-    "51": "sete",
-    "52": "cmove",
+    "51": "cmove",
+    "52": "sete",
     "53": "bswap",
     "54": "movabs",
     "55": "setne",
@@ -163,8 +163,8 @@
     "58": "leave",
     "59": "movq",
     "60": "stloc.s",
-    "61": "cmpsb",
-    "62": "jns",
+    "61": "jns",
+    "62": "cmpsb",
     "63": "br.s",
     "64": "ldarg.1",
     "65": "ldstr",
@@ -175,21 +175,21 @@
     "70": "cdq",
     "71": "mulsd",
     "72": "ldloc.s",
-    "73": "setg",
-    "74": "movdqa",
-    "75": "setl",
-    "76": "addsd",
-    "77": "ldloc.0",
-    "78": "ldc.i4.0",
-    "79": "vmovdqu",
-    "80": "movdqu",
+    "73": "movdqa",
+    "74": "setg",
+    "75": "ldloc.0",
+    "76": "movdqu",
+    "77": "addsd",
+    "78": "setl",
+    "79": "ldc.i4.0",
+    "80": "vmovdqu",
     "81": "mul",
-    "82": "movd",
-    "83": "ill",
-    "84": "ldc.i4.s",
-    "85": "stfld",
-    "86": "movlpd",
-    "87": "ldarg.2",
+    "82": "ill",
+    "83": "movd",
+    "84": "stfld",
+    "85": "ldc.i4.s",
+    "86": "ldarg.2",
+    "87": "movlpd",
     "88": "movss",
     "89": "break",
     "90": "ldc.i4",
@@ -200,286 +200,286 @@
     "95": "jp",
     "96": "ldloc.1",
     "97": "ldc.i4.8",
-    "98": "stosd",
-    "99": "bt"
+    "98": "bt",
+    "99": "stosd"
   },
   "top_k": 100,
   "feature_dim": 101,
   "total_unique_opcodes": 1223,
-  "total_opcode_instances": 456479039,
-  "coverage": 0.980678,
+  "total_opcode_instances": 467494397,
+  "coverage": 0.980823,
   "opcode_freq": [
     {
       "opcode": "mov",
-      "count": 130247714
+      "count": 133778639
     },
     {
       "opcode": "push",
-      "count": 42238617
+      "count": 42763544
     },
     {
       "opcode": "call",
-      "count": 30614243
+      "count": 31527202
     },
     {
       "opcode": "lea",
-      "count": 22141319
+      "count": 22911725
     },
     {
       "opcode": "cmp",
-      "count": 20678180
+      "count": 21230918
     },
     {
       "opcode": "xor",
-      "count": 20008305
+      "count": 20385979
     },
     {
       "opcode": "pop",
-      "count": 16534935
+      "count": 16854345
     },
     {
       "opcode": "add",
-      "count": 15407264
+      "count": 15700959
     },
     {
       "opcode": "je",
-      "count": 13915938
+      "count": 14412924
     },
     {
       "opcode": "test",
-      "count": 13163201
+      "count": 13702137
     },
     {
       "opcode": "and",
-      "count": 13144329
+      "count": 13274439
     },
     {
       "opcode": "jmp",
-      "count": 12276209
+      "count": 12648272
     },
     {
       "opcode": "or",
-      "count": 10691584
+      "count": 10756522
     },
     {
       "opcode": "jne",
-      "count": 9870977
+      "count": 10190491
     },
     {
       "opcode": "sub",
-      "count": 7032010
+      "count": 7273393
     },
     {
       "opcode": "ret",
-      "count": 6921690
+      "count": 7094191
     },
     {
       "opcode": "nop",
-      "count": 4990221
+      "count": 5223578
     },
     {
       "opcode": "movzx",
-      "count": 4919254
+      "count": 5022093
     },
     {
       "opcode": "inc",
-      "count": 4594572
+      "count": 4654037
     },
     {
       "opcode": "not",
-      "count": 3961177
+      "count": 3967955
     },
     {
       "opcode": "dec",
-      "count": 2593979
+      "count": 2606115
     },
     {
       "opcode": "shr",
-      "count": 1813336
+      "count": 1850243
     },
     {
       "opcode": "shl",
-      "count": 1560382
+      "count": 1584532
     },
     {
       "opcode": "movups",
-      "count": 1486203
+      "count": 1546519
     },
     {
       "opcode": "jb",
-      "count": 1475314
+      "count": 1534443
     },
     {
       "opcode": "jae",
-      "count": 1405124
-    },
-    {
-      "opcode": "neg",
-      "count": 1345721
+      "count": 1432712
     },
     {
       "opcode": "jbe",
-      "count": 1332940
+      "count": 1377147
     },
     {
-      "opcode": "sar",
-      "count": 1266507
+      "opcode": "neg",
+      "count": 1358635
     },
     {
       "opcode": "ja",
-      "count": 1255428
+      "count": 1295472
+    },
+    {
+      "opcode": "sar",
+      "count": 1279413
     },
     {
       "opcode": "jle",
-      "count": 1217081
+      "count": 1236939
     },
     {
       "opcode": "ldarg.0",
-      "count": 1097270
+      "count": 1115869
     },
     {
       "opcode": "imul",
-      "count": 1007174
+      "count": 1022648
     },
     {
       "opcode": "movsd",
-      "count": 995654
+      "count": 1009305
     },
     {
       "opcode": "movsx",
-      "count": 972174
+      "count": 982397
     },
     {
       "opcode": "jl",
-      "count": 970007
+      "count": 981001
     },
     {
       "opcode": "jg",
-      "count": 959313
+      "count": 970745
     },
     {
       "opcode": "ror",
-      "count": 906083
+      "count": 914533
     },
     {
       "opcode": "rol",
-      "count": 904333
+      "count": 906919
     },
     {
       "opcode": "adc",
-      "count": 900414
+      "count": 901126
     },
     {
       "opcode": "callvirt",
-      "count": 716982
+      "count": 729010
     },
     {
       "opcode": "sbb",
-      "count": 691037
-    },
-    {
-      "opcode": "jge",
-      "count": 676090
+      "count": 702305
     },
     {
       "opcode": "movsxd",
-      "count": 666221
+      "count": 701138
     },
     {
-      "opcode": "lock",
-      "count": 620515
+      "opcode": "jge",
+      "count": 683089
     },
     {
       "opcode": "int3",
-      "count": 603037
+      "count": 636990
     },
     {
-      "opcode": "xchg",
-      "count": 598143
+      "opcode": "lock",
+      "count": 632344
     },
     {
       "opcode": "ldfld",
-      "count": 597536
+      "count": 605790
     },
     {
-      "opcode": "cmovne",
-      "count": 558813
+      "opcode": "xchg",
+      "count": 600829
     },
     {
       "opcode": "xorps",
-      "count": 558638
+      "count": 576896
+    },
+    {
+      "opcode": "cmovne",
+      "count": 571435
     },
     {
       "opcode": "movaps",
-      "count": 537908
-    },
-    {
-      "opcode": "sete",
-      "count": 505466
+      "count": 550649
     },
     {
       "opcode": "cmove",
-      "count": 505371
+      "count": 518507
+    },
+    {
+      "opcode": "sete",
+      "count": 513811
     },
     {
       "opcode": "bswap",
-      "count": 484878
+      "count": 485306
     },
     {
       "opcode": "movabs",
-      "count": 462525
+      "count": 477163
     },
     {
       "opcode": "setne",
-      "count": 447766
+      "count": 454702
     },
     {
       "opcode": "sal",
-      "count": 441615
+      "count": 441628
     },
     {
       "opcode": "js",
-      "count": 403028
+      "count": 437872
     },
     {
       "opcode": "leave",
-      "count": 385770
+      "count": 396016
     },
     {
       "opcode": "movq",
-      "count": 377904
+      "count": 382099
     },
     {
       "opcode": "stloc.s",
-      "count": 364468
+      "count": 369220
+    },
+    {
+      "opcode": "jns",
+      "count": 332788
     },
     {
       "opcode": "cmpsb",
       "count": 332324
     },
     {
-      "opcode": "jns",
-      "count": 313307
-    },
-    {
       "opcode": "br.s",
-      "count": 304571
+      "count": 305978
     },
     {
       "opcode": "ldarg.1",
-      "count": 289867
+      "count": 296991
     },
     {
       "opcode": "ldstr",
-      "count": 285446
+      "count": 291661
     },
     {
       "opcode": "fstp",
-      "count": 272644
+      "count": 275705
     },
     {
       "opcode": "newobj",
-      "count": 269595
+      "count": 273380
     },
     {
       "opcode": "xadd",
@@ -487,95 +487,95 @@
     },
     {
       "opcode": "fld",
-      "count": 249631
+      "count": 251856
     },
     {
       "opcode": "cdq",
-      "count": 247635
+      "count": 248705
     },
     {
       "opcode": "mulsd",
-      "count": 242771
+      "count": 244818
     },
     {
       "opcode": "ldloc.s",
-      "count": 233892
-    },
-    {
-      "opcode": "setg",
-      "count": 221766
+      "count": 238262
     },
     {
       "opcode": "movdqa",
-      "count": 214471
+      "count": 224756
     },
     {
-      "opcode": "setl",
-      "count": 214145
-    },
-    {
-      "opcode": "addsd",
-      "count": 212987
+      "opcode": "setg",
+      "count": 222235
     },
     {
       "opcode": "ldloc.0",
-      "count": 212894
-    },
-    {
-      "opcode": "ldc.i4.0",
-      "count": 202630
-    },
-    {
-      "opcode": "vmovdqu",
-      "count": 200282
+      "count": 217376
     },
     {
       "opcode": "movdqu",
-      "count": 198205
+      "count": 214769
+    },
+    {
+      "opcode": "addsd",
+      "count": 214340
+    },
+    {
+      "opcode": "setl",
+      "count": 214254
+    },
+    {
+      "opcode": "ldc.i4.0",
+      "count": 207005
+    },
+    {
+      "opcode": "vmovdqu",
+      "count": 206560
     },
     {
       "opcode": "mul",
-      "count": 182949
-    },
-    {
-      "opcode": "movd",
-      "count": 173260
+      "count": 187319
     },
     {
       "opcode": "ill",
-      "count": 171839
+      "count": 176490
     },
     {
-      "opcode": "ldc.i4.s",
-      "count": 165415
+      "opcode": "movd",
+      "count": 175985
     },
     {
       "opcode": "stfld",
-      "count": 165051
+      "count": 170040
     },
     {
-      "opcode": "movlpd",
-      "count": 160035
+      "opcode": "ldc.i4.s",
+      "count": 166916
     },
     {
       "opcode": "ldarg.2",
-      "count": 159458
+      "count": 163256
+    },
+    {
+      "opcode": "movlpd",
+      "count": 161014
     },
     {
       "opcode": "movss",
-      "count": 146439
+      "count": 149229
     },
     {
       "opcode": "break",
-      "count": 142368
+      "count": 143587
     },
     {
       "opcode": "ldc.i4",
-      "count": 139595
+      "count": 140582
     },
     {
       "opcode": "stloc.0",
-      "count": 136881
+      "count": 140445
     },
     {
       "opcode": "vmovdqu32",
@@ -583,31 +583,31 @@
     },
     {
       "opcode": "subsd",
-      "count": 126488
+      "count": 127467
     },
     {
       "opcode": "ldc.i4.1",
-      "count": 124138
+      "count": 127108
     },
     {
       "opcode": "jp",
-      "count": 113381
+      "count": 114037
     },
     {
       "opcode": "ldloc.1",
-      "count": 109025
+      "count": 111355
     },
     {
       "opcode": "ldc.i4.8",
-      "count": 107711
-    },
-    {
-      "opcode": "stosd",
-      "count": 104452
+      "count": 109991
     },
     {
       "opcode": "bt",
-      "count": 104442
+      "count": 109753
+    },
+    {
+      "opcode": "stosd",
+      "count": 106717
     }
   ]
 }

@@ -1,5 +1,0 @@
-{
-    "overall_confidence_score": 0.9495,
-    "predicted_class": "Benign",
-    "preliminary_hypothesis": "All three models (CNN, GNN, and Heuristic) strongly favor the benign class, with the GNN and Heuristic models assigning a perfect benign score (1.0) and zero confidence in malware. The CNN model also leans heavily toward benign (0.8484 benign vs. 0.1516 malware). There is full consensus among the models, indicating no structural, behavioral, or visual evidence of maliciousness. Final Verdict: Benign. The file lacks any indicators of malware across all analytical dimensions, resulting in a high-confidence benign classification."
-}

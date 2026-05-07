@@ -1,9 +1,9 @@
 {
-  "test_accuracy": 0.9653379549393414,
-  "test_precision": 0.9856262833675564,
-  "test_recall": 0.973630831643002,
-  "test_f1": 0.9795918367346939,
-  "best_epoch": 35,
+  "test_accuracy": 0.9869186046511628,
+  "test_precision": 0.98989898989899,
+  "test_recall": 0.9919028340080972,
+  "test_f1": 0.9908998988877654,
+  "best_epoch": 92,
   "config": {
     "input_dim": 101,
     "hidden_dim": 128,

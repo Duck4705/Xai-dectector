@@ -61,6 +61,18 @@ def Quantitative_reasoning_agent(state: dict):
     
     output_file = os.path.join(output_dir, "Quantitative_reasoning_result.json")
     result_data = {
+        "CNN_Score": {
+            "malware_confidence_score": malware_cnn_score,
+            "benign_confidence_score": benign_cnn_score
+        },
+        "GNN_Score": {
+            "malware_confidence_score": malware_gin_score,
+            "benign_confidence_score": benign_gin_score
+        },
+        "Heuristic_Score": {
+            "malware_confidence_score": malware_heuristic_score,
+            "benign_confidence_score": benign_heuristic_score
+        },
         "overall_confidence_score": result.overall_confidence_score,
         "predicted_class": result.predicted_class,
         "preliminary_hypothesis": result.preliminary_hypothesis
