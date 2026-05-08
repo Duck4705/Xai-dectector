@@ -60,8 +60,16 @@ def run_all_inputs_directly():
             # GỌI TRỰC TIẾP GRAPH THAY VÌ QUA API
             result_data = graph.invoke({"file_name": folder_name})
             
-            # result_data trả về là dictionary, convert sang JSON string để in đẹp
-            print(json.dumps(result_data, indent=4, ensure_ascii=False))
+            # Hàm hỗ trợ convert các object nội bộ (như GinState của Pydantic) sang dạng JSON
+            def default_serializer(obj):
+                if hasattr(obj, 'model_dump'):
+                    return obj.model_dump()
+                elif hasattr(obj, 'dict'):
+                    return obj.dict()
+                return str(obj)
+            
+            # convert sang JSON string để in ra màn hình
+            print(json.dumps(result_data, indent=4, ensure_ascii=False, default=default_serializer))
             
             print(f"✅ Đã phân tích xong {folder_name}!\n")
             success = True
