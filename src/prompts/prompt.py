@@ -73,7 +73,7 @@ feature_synthesizer_agent_prompt = """
     Do not merge the findings into a single summary. The report string must contain three distinct and independent sections separated by clear headings. Each section must flow as a neutral narrative describing only its respective feature.
     The output must be returned strictly in the following format:
     {
-        "report": "Part 1: Independent ASM Analysis...\n\nPart 2: Independent CFG Analysis...\n\nPart 3: Independent CAPA Analysis..."
+        "report": "Part 1: Independent ASM Analysis...\\n\\nPart 2: Independent CFG Analysis...\\n\\nPart 3: Independent CAPA Analysis..."
     }
 """
 
